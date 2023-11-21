@@ -14,6 +14,16 @@
 		BA982A752A40E94400FD1EB9 /* RockReadyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA982A742A40E94400FD1EB9 /* RockReadyTests.swift */; };
 		BA982A7F2A40E94400FD1EB9 /* RockReadyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA982A7E2A40E94400FD1EB9 /* RockReadyUITests.swift */; };
 		BA982A812A40E94400FD1EB9 /* RockReadyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA982A802A40E94400FD1EB9 /* RockReadyUITestsLaunchTests.swift */; };
+		BA982A8F2A40E9BB00FD1EB9 /* MapContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA982A8E2A40E9BB00FD1EB9 /* MapContext.swift */; };
+		BA982A952A40F61200FD1EB9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA982A942A40F61100FD1EB9 /* MapView.swift */; };
+		BA982A972A41386300FD1EB9 /* MapButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA982A962A41386300FD1EB9 /* MapButtonsView.swift */; };
+		BA982A9D2A43A15200FD1EB9 /* MPDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA982A9C2A43A15200FD1EB9 /* MPDataParser.swift */; };
+		BA982A9F2A43A2A600FD1EB9 /* MPPackageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA982A9E2A43A2A600FD1EB9 /* MPPackageStore.swift */; };
+		BA982AA22A43AB9100FD1EB9 /* Gzip in Frameworks */ = {isa = PBXBuildFile; productRef = BA982AA12A43AB9100FD1EB9 /* Gzip */; };
+		BA982AA62A45023200FD1EB9 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA982AA52A45023200FD1EB9 /* CustomAnnotation.swift */; };
+		BAB5B9F52B0C078D00FEC71B /* ClusterMap in Frameworks */ = {isa = PBXBuildFile; productRef = BAB5B9F42B0C078D00FEC71B /* ClusterMap */; };
+		BACFEF062A4508190035AE8C /* ClusteredAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACFEF052A4508190035AE8C /* ClusteredAnnotationView.swift */; };
+		BACFEF082A4618DC0035AE8C /* SingleAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACFEF072A4618DC0035AE8C /* SingleAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,15 @@
 		BA982A7A2A40E94400FD1EB9 /* RockReadyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockReadyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA982A7E2A40E94400FD1EB9 /* RockReadyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockReadyUITests.swift; sourceTree = "<group>"; };
 		BA982A802A40E94400FD1EB9 /* RockReadyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockReadyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA982A8D2A40E98600FD1EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA982A8E2A40E9BB00FD1EB9 /* MapContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContext.swift; sourceTree = "<group>"; };
+		BA982A942A40F61100FD1EB9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BA982A962A41386300FD1EB9 /* MapButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapButtonsView.swift; sourceTree = "<group>"; };
+		BA982A9C2A43A15200FD1EB9 /* MPDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPDataParser.swift; sourceTree = "<group>"; };
+		BA982A9E2A43A2A600FD1EB9 /* MPPackageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPPackageStore.swift; sourceTree = "<group>"; };
+		BA982AA52A45023200FD1EB9 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		BACFEF052A4508190035AE8C /* ClusteredAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusteredAnnotationView.swift; sourceTree = "<group>"; };
+		BACFEF072A4618DC0035AE8C /* SingleAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB5B9F52B0C078D00FEC71B /* ClusterMap in Frameworks */,
+				BA982AA22A43AB9100FD1EB9 /* Gzip in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +115,9 @@
 		BA982A622A40E94300FD1EB9 /* RockReady */ = {
 			isa = PBXGroup;
 			children = (
+				BA982A8D2A40E98600FD1EB9 /* Info.plist */,
+				BAB5B9F22B0BF9DF00FEC71B /* Map */,
+				BAB5B9F12B0BF9C900FEC71B /* Mountain Project */,
 				BA982A632A40E94300FD1EB9 /* RockReadyApp.swift */,
 				BA982A652A40E94300FD1EB9 /* ContentView.swift */,
 				BA982A672A40E94400FD1EB9 /* Assets.xcassets */,
@@ -127,6 +151,28 @@
 			path = RockReadyUITests;
 			sourceTree = "<group>";
 		};
+		BAB5B9F12B0BF9C900FEC71B /* Mountain Project */ = {
+			isa = PBXGroup;
+			children = (
+				BA982A9C2A43A15200FD1EB9 /* MPDataParser.swift */,
+				BA982A9E2A43A2A600FD1EB9 /* MPPackageStore.swift */,
+			);
+			path = "Mountain Project";
+			sourceTree = "<group>";
+		};
+		BAB5B9F22B0BF9DF00FEC71B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				BA982A8E2A40E9BB00FD1EB9 /* MapContext.swift */,
+				BA982A942A40F61100FD1EB9 /* MapView.swift */,
+				BA982A962A41386300FD1EB9 /* MapButtonsView.swift */,
+				BA982AA52A45023200FD1EB9 /* CustomAnnotation.swift */,
+				BACFEF052A4508190035AE8C /* ClusteredAnnotationView.swift */,
+				BACFEF072A4618DC0035AE8C /* SingleAnnotationView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +189,10 @@
 			dependencies = (
 			);
 			name = RockReady;
+			packageProductDependencies = (
+				BA982AA12A43AB9100FD1EB9 /* Gzip */,
+				BAB5B9F42B0C078D00FEC71B /* ClusterMap */,
+			);
 			productName = RockReady;
 			productReference = BA982A602A40E94300FD1EB9 /* RockReady.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +265,10 @@
 				Base,
 			);
 			mainGroup = BA982A572A40E94300FD1EB9;
+			packageReferences = (
+				BA982AA02A43AB9100FD1EB9 /* XCRemoteSwiftPackageReference "GzipSwift" */,
+				BAB5B9F32B0C078D00FEC71B /* XCRemoteSwiftPackageReference "ClusterMap" */,
+			);
 			productRefGroup = BA982A612A40E94300FD1EB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,6 +312,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA982A662A40E94300FD1EB9 /* ContentView.swift in Sources */,
+				BA982A9D2A43A15200FD1EB9 /* MPDataParser.swift in Sources */,
+				BA982A952A40F61200FD1EB9 /* MapView.swift in Sources */,
+				BACFEF062A4508190035AE8C /* ClusteredAnnotationView.swift in Sources */,
+				BA982A8F2A40E9BB00FD1EB9 /* MapContext.swift in Sources */,
+				BACFEF082A4618DC0035AE8C /* SingleAnnotationView.swift in Sources */,
+				BA982A972A41386300FD1EB9 /* MapButtonsView.swift in Sources */,
+				BA982AA62A45023200FD1EB9 /* CustomAnnotation.swift in Sources */,
+				BA982A9F2A43A2A600FD1EB9 /* MPPackageStore.swift in Sources */,
 				BA982A642A40E94300FD1EB9 /* RockReadyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,11 +482,14 @@
 				DEVELOPMENT_TEAM = C36R7JN67H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RockReady/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "See your current location on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +514,14 @@
 				DEVELOPMENT_TEAM = C36R7JN67H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RockReady/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "See your current location on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +651,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA982AA02A43AB9100FD1EB9 /* XCRemoteSwiftPackageReference "GzipSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/1024jp/GzipSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		BAB5B9F32B0C078D00FEC71B /* XCRemoteSwiftPackageReference "ClusterMap" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vospennikov/ClusterMap.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA982AA12A43AB9100FD1EB9 /* Gzip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA982AA02A43AB9100FD1EB9 /* XCRemoteSwiftPackageReference "GzipSwift" */;
+			productName = Gzip;
+		};
+		BAB5B9F42B0C078D00FEC71B /* ClusterMap */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAB5B9F32B0C078D00FEC71B /* XCRemoteSwiftPackageReference "ClusterMap" */;
+			productName = ClusterMap;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BA982A582A40E94300FD1EB9 /* Project object */;
 }

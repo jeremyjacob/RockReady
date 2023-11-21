@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "clustermap",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vospennikov/ClusterMap.git",
+      "state" : {
+        "revision" : "1db009ad25964016e799670003cdeebb0829d13d",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "gzipswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/1024jp/GzipSwift",
+      "state" : {
+        "revision" : "731037f6cc2be2ec01562f6597c1d0aa3fe6fd05",
+        "version" : "6.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

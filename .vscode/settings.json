@@ -1,0 +1,13 @@
+{
+	"swift.SDK": "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk",
+	"swift.sourcekit-lsp.serverArguments": [
+		"-Xswiftc",
+		"-sdk",
+		"-Xswiftc",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk",
+		"-Xswiftc",
+		"-target",
+		"-Xswiftc",
+		"x86_64-apple-ios17.0-simulator"
+	]
+}

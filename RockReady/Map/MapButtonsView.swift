@@ -10,7 +10,7 @@ import SwiftUI
 
 // mapbuttons UI component
 
-struct MapButtons: View {
+struct MapButtonsView: View {
     @EnvironmentObject private var mapSettings: MapContext
     
     let size: CGFloat = 44;
@@ -38,13 +38,20 @@ struct MapButtons: View {
                     Divider().frame(width: size)
                     if mapSettings.userTrackingMode == .follow {
                         Button(action: {
-    //
+                            mapSettings.userTrackingMode = .followWithHeading
                         }) {
                             Image(systemName: "location.fill")
                                 .frame(width: size, height: size)
-                            
                         }
-                    } else {
+                    } else if mapSettings.userTrackingMode == .followWithHeading {
+                        Button(action: {
+                            mapSettings.userTrackingMode = .follow
+                        }) {
+                            Image(systemName: "location.north.line.fill")
+                                .frame(width: size, height: size)
+                        }
+                    }
+                    else {
                         Button(action: {
                             mapSettings.userTrackingMode = .follow
                         }) {
